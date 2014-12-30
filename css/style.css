@@ -61,6 +61,15 @@ table {
              url('/assets/fonts/bebas/BebasNeueRegular.svg#BebasNeueRegular') format('svg');
     }
 
+    @font-face {
+        font-family: 'DoppioOne';
+        src: url('/assets/fonts/DoppioOne/DoppioOne-Regular.eot');
+        src: url('/assets/fonts/DoppioOne/DoppioOne-Regular.eot?#iefix') format('embedded-opentype'),
+             url('/assets/fonts/DoppioOne/DoppioOne-Regular.woff') format('woff'),
+             url('/assets/fonts/DoppioOne/DoppioOne-Regular.ttf') format('truetype'),
+             url('/assets/fonts/DoppioOne/DoppioOne-Regular.svg#BebasNeueRegular') format('svg');
+    }
+
 /*  BEBASENEU REGULAR font-ending */
 
 /*  UTILITY CLASSES */
@@ -82,7 +91,7 @@ table {
 body, html {    
     width:100%;
     min-height: 100%;
-    font-family: arial, sans-serif;
+    font-family: DoppioOne, arial, sans-serif;
 }
 
 body{
@@ -100,7 +109,7 @@ body{
 
 .navigation {
     background-color: #181818;
-    padding: 15px 0;
+    padding: 15px 20px;
 }
 
 .navigation ul {
@@ -111,7 +120,7 @@ body{
     display: inline-block;
     list-style-type: none;
     font-size: 14px;
-    padding: 5px 15px;
+    padding: 5px 31px;
 
 }
 
@@ -136,19 +145,27 @@ body{
 .marquee-content {
     margin: auto;
     width: 100%;
+    padding: 203px;
+    width: 539px;
 }
 
 .marquee h1 {
     font-family: BebasNeue, arial, sans-serif;
     font-size: 73px;
     color: #fff;
-    width: 539px;
     text-align: justify;
     text-shadow: 0px 2px 6px #999;
     margin: auto;
-    padding: 203px;
 }
 
 .marquee h1 span {
     font-size: 87px;
+}
+
+.marquee_icons {
+    padding: 20px 0;
+}
+
+#icon2 {
+    padding: 0 38px 0 38px;
 }
