@@ -50,6 +50,19 @@ table {
 
 /* RESET CSS ENDING*/
 
+/*  BEBASENEU REGULAR font */
+    
+    @font-face {
+        font-family: 'BebasNeue';
+        src: url('/assets/fonts/bebas/BebasNeueRegular.eot');
+        src: url('/assets/fonts/bebas/BebasNeueRegular.eot?#iefix') format('embedded-opentype'),
+             url('/assets/fonts/bebas/BebasNeueRegular.woff') format('woff'),
+             url('/assets/fonts/bebas/BebasNeueRegular.ttf') format('truetype'),
+             url('/assets/fonts/bebas/BebasNeueRegular.svg#BebasNeueRegular') format('svg');
+    }
+
+/*  BEBASENEU REGULAR font-ending */
+
 /*  UTILITY CLASSES */
     .clearfix:after {
      visibility: hidden;
@@ -111,3 +124,31 @@ body{
     text-decoration: none;
 }
 
+.marquee {
+    background-image: url(/images/marquee_maximus.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 678px;
+}
+
+.marquee-content {
+    margin: auto;
+    width: 100%;
+}
+
+.marquee h1 {
+    font-family: BebasNeue, arial, sans-serif;
+    font-size: 73px;
+    color: #fff;
+    width: 539px;
+    text-align: justify;
+    text-shadow: 0px 2px 6px #999;
+    margin: auto;
+    padding: 203px;
+}
+
+.marquee h1 span {
+    font-size: 87px;
+}
