@@ -147,6 +147,7 @@ body{
     width: 100%;
     padding: 203px;
     width: 539px;
+    padding-bottom: 91px;
 }
 
 .marquee h1 {
@@ -168,6 +169,64 @@ body{
 
 #icon2 {
     padding: 0 38px 0 38px;
+}
+
+#bestseller_header {
+    position: absolute;
+}
+
+#product_detail_image {
+    float: left;
+    width: 47%;
+    position: relative;
+}
+
+#product_detail_image #bestseller_bicycle {    
+    width: 100%;
+    height: 100%;   
+}
+
+#product-detail-text {
+    background: #e6ddda;
+    height: 330px;
+    width: 596px;
+    float: right;
+    padding: 10px 0 5px 40px;
+}
+
+#product-detail-header {
+    font-size: 23px;
+    padding: 20px 0 10px 0;
+}
+
+.product-seller-name {
+    font-size: 13px;
+    font-style: italic;
+    color: #987f77;
+    padding: 0 0 45px;
+}
+
+#product-price-tag {
+    font-size: 95px;
+    padding: 0 0 10px 0;
+}
+
+.rating {
+    padding: 18px 0;
+}
+
+#product-detail-text button {
+    border: 4px solid #987f77;;
+    padding: 13px 54px;
+    font-size: 14px;
+    color: #987f77;
+    background: #e6ddda;
+    float: left;
+    margin-right: 55px;
+}
+
+#product-detail-text a {
+    
 }
 
 /*  5 STAR RATING   */
