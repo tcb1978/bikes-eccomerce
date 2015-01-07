@@ -169,3 +169,27 @@ body{
 #icon2 {
     padding: 0 38px 0 38px;
 }
+
+/*  5 STAR RATING   */
+
+.rating > span:hover:before {
+   content: "\2605";
+   position: absolute;
+}
+
+/*  END OF 5 STAR RATING    */
+
+/*  STOP/START SLIDER   */
+
+#slider          { background: white url(../images/slider-bg.jpg); height: 227px; overflow: hidden;
+                   position: relative; margin: 50px 0; }
+#mover           { width: 2880px; position: relative; }
+.slide           { padding: 40px 30px; width: 900px; float: left; position: relative; }
+.slide h1        { font-family: Helvetica, Sans-Serif; font-size: 30px; letter-spacing: -1px;
+                   color: #ac0000; }
+.slide p         { color: #999; font-size: 12px; line-height: 22px; width: 300px; }
+.slide img       { position: absolute; top: 20px; left: 400px; }
+#slider-stopper  { position: absolute; top: 1px; right: 20px; background: #ac0000; color: white;
+                   padding: 3px 8px; font-size: 10px; text-transform: uppercase; z-index: 1000; }
+
+/*  STOP/START SLIDER  END */
