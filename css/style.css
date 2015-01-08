@@ -192,6 +192,18 @@ body{
     width: 596px;
     float: right;
     padding: 10px 0 5px 40px;
+    position: relative;
+}
+
+.arrow-left {
+    width: 0;
+    height: 0;
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent;
+    border-right: 18px solid #e6ddda;
+    position: absolute;
+    left: -16px;
+    top: 52px;
 }
 
 #product-detail-header {
@@ -213,6 +225,7 @@ body{
 
 .rating {
     padding: 18px 0;
+    float: left;
 }
 
 #product-detail-text button {
@@ -226,7 +239,11 @@ body{
 }
 
 #product-detail-text a {
-    
+    text-decoration: none;
+    color: black;
+    font-size: small;
+    display: inline-block;
+    margin: 35px 0 0;
 }
 
 /*  5 STAR RATING   */
