@@ -195,6 +195,17 @@ body{
     position: relative;
 }
 
+#product_background_text {
+    font-size: 226px;
+    color: #ddd4d1;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: BebasNeue;
+    z-index: 1;
+}
+
 .arrow-left {
     width: 0;
     height: 0;
@@ -209,18 +220,25 @@ body{
 #product-detail-header {
     font-size: 23px;
     padding: 20px 0 10px 0;
+    position: relative;
+    z-index: 2;
 }
 
 .product-seller-name {
     font-size: 13px;
     font-style: italic;
     color: #987f77;
-    padding: 0 0 45px;
+    padding: 0 0 32px;
+    position: relative;
+    z-index: 2;
 }
 
 #product-price-tag {
-    font-size: 95px;
-    padding: 0 0 10px 0;
+    font-size: 112px;
+    padding: 0 0 12px 0;
+    font-family: BebasNeue;
+    position: relative;
+    z-index: 2;
 }
 
 .rating {
@@ -257,11 +275,11 @@ body{
 
 /*  STOP/START SLIDER   */
 
-#slider          { background: white url(../images/slider-bg.jpg); height: 227px; overflow: hidden;
+#slider          { background: white url(); height: 227px; overflow: hidden;
                    position: relative; margin: 50px 0; }
 #mover           { width: 2880px; position: relative; }
 .slide           { padding: 40px 30px; width: 900px; float: left; position: relative; }
-.slide h1        { font-family: Helvetica, Sans-Serif; font-size: 30px; letter-spacing: -1px;
+.slide h1        { font-size: 30px; letter-spacing: -1px;
                    color: #ac0000; }
 .slide p         { color: #999; font-size: 12px; line-height: 22px; width: 300px; }
 .slide img       { position: absolute; top: 20px; left: 400px; }
