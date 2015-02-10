@@ -275,11 +275,46 @@ body{
 
 /*  STOP/START SLIDER   */
 
+section#product_description_thumbnails {
+    background: white;
+}
+
 .product-thumbnails {
     width: 227px;
     height: 202px;
     display: block;
     position: relative;
+    float: left;
+    left: 40px;
+    margin: auto;
+    padding: 0 73px 0px 0;
 }
+
+#browse_shop_container {
+    background: url("/images/browse-container-background.png") no-repeat 0 0 transparent;
+    height: 350px;
+    display: block;
+    position: relative;
+    background-size: cover;
+}
+
+a.browse_shop_button {
+    margin-left: auto;
+    position: relative;
+    display: block;
+    margin-right: auto;
+    left: 462px;
+    top: 61%;
+}
+
+button.button-browse-shop {
+    color: #fff;
+    background: transparent;
+    border: 2px solid #fff;
+    height: 48px;
+    width: 290px;
+    font-size: 32px;
+}
+
 
 /*  STOP/START SLIDER  END */
