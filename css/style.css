@@ -124,17 +124,17 @@ body{
 
 }
 
-.navigation ul li:hover {
-    background-color: #8f746c;
-}
-
 .navigation ul li a {
     color: #fff;
     text-decoration: none;
 }
 
+.navigation ul li a:hover {
+    color: #e7c5ba;
+}
+
 .marquee {
-    background-image: url(/images/marquee_maximus.png);
+    background-image: url("/images/marquee_maximus.png");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -256,6 +256,12 @@ body{
     margin-right: 55px;
 }
 
+#product-detail-text button:hover {
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
 #product-detail-text a {
     text-decoration: none;
     color: black;
@@ -276,7 +282,9 @@ body{
 /*  STOP/START SLIDER   */
 
 section#product_description_thumbnails {
+    overflow: scroll;
     background: white;
+    padding: 50px 0px 100px 0px;
 }
 
 .product-thumbnails {
@@ -290,9 +298,36 @@ section#product_description_thumbnails {
     padding: 0 73px 0px 0;
 }
 
+button.product-detail-text-button {
+    display: block;
+    position: relative;
+    color: #987f77;
+    border: 2px solid #987f77;
+    background: transparent;
+    height: 36px;
+    width: 196px
+}
+
+button.product-detail-text-button:hover {
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+p.product-thumbnail-price-tag {
+    display: block;
+    position: relative;
+    float: right;
+    bottom: 51px;
+}
+
+.product-thumbnail-description {
+    padding: 20px 0px 20px 0px;
+}
+
 #browse_shop_container {
     background: url("/images/browse-container-background.png") no-repeat 0 0 transparent;
-    height: 350px;
+    height: 445px;
     display: block;
     position: relative;
     background-size: cover;
@@ -304,7 +339,23 @@ a.browse_shop_button {
     display: block;
     margin-right: auto;
     left: 462px;
-    top: 61%;
+    top: 48%;
+}
+
+a.footer-conditions {
+display: block;
+position: relative;
+float: right;
+padding: 0px 56px 0px 0px;
+font-size: 13px;
+text-decoration: none;
+color: black;
+right: 200px;
+top: 50%;
+}
+
+a.footer-conditions:hover {
+    color: #95ac9c;
 }
 
 button.button-browse-shop {
@@ -316,5 +367,113 @@ button.button-browse-shop {
     font-size: 32px;
 }
 
+button.button-browse-shop:hover {
+    color: #95ac9c;
+    border: 2px solid #fff;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
 
-/*  STOP/START SLIDER  END */
+
+/*  FOOTER   */
+
+#footer_wrap {
+    position: relative;
+    display: inline-block;
+    height: 100px;
+    background: #fff;
+    width: 100%;
+    border-top: 2px solid #d4c9c6;
+}
+
+/*   CREDIT CARD SECTION   */
+
+#credit_card {
+    height: 200px;
+    width: 100%;
+    background: transparent;
+    display: inline-block;
+    position: relative;
+    left: 40%;
+    top: 20px;
+}
+
+.credit-card-paypal {
+    background: url("/images/bikes-paypal.png") no-repeat 0 0 transparent;
+    display: inline-block;
+    position: relative;
+    height: 30px;
+    width: 44px;
+}
+
+.credit-card-paypal:hover {
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.credit-card-union {
+    background: url("/images/bikes-paypal.png") no-repeat 0 0 transparent;
+    display: inline-block;
+    position: relative;
+    height: 30px;
+    width: 44px;
+}
+
+.credit-card-union:hover {
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.credit-card-visa {
+    background: url("/images/bikes-visa.png") no-repeat 0 0 transparent;
+    display: inline-block;
+    position: relative;
+    height: 30px;
+    width: 44px;
+}
+
+.credit-card-visa:hover {
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.credit-card-amex {
+    background: url("/images/bikes-amex.png") no-repeat 0 0 transparent;
+    display: inline-block;
+    position: relative;
+    height: 30px;
+    width: 44px;
+}
+
+.credit-card-amex:hover {
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.credit-card-isrl {
+    background: url("/images/bikes-isrl.png") no-repeat 0 0 transparent;
+    display: inline-block;
+    position: relative;
+    height: 30px;
+    width: 44px;
+}
+
+.credit-card-isrl:hover {
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+
+
+
+
+
+
+
