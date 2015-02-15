@@ -336,7 +336,7 @@ p.product-thumbnail-price-tag {
 a.browse_shop_button {
     margin-left: auto;
     position: relative;
-    display: block;
+    display: inline-block;
     margin-right: auto;
     left: 462px;
     top: 48%;
