@@ -10,7 +10,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/css/style.css">
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    
 </head>
 <body>
     <div class="container">
@@ -46,7 +46,7 @@
                     <p id="product-price-tag">299.99$</p>
                     <div class="clearfix">
                         <button type="button">ADD TO SHOPPING BAG</button>
-                        <div class="rating">Rating:<span id="star-rating">   </span>
+                        <div class="rating">Rating: <span id="star-rating">   </span>
                             <span>&#9734;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span>
                         </div>
                     </div>
@@ -54,49 +54,16 @@
                 </div>
             </section>
             <section id="product_description_thumbnails" class="clearfix">
-                <div class="product-thumbnails" class="clearfix">
-                    <img src="/images/bikes-thumbnail1.png" alt="">
-                    <div class="product-thumbnail-description">
-                        <p class="product-thumbnail-bike-style">Sport Bicycle 988</p>
-                        <p class="product-thumbnail-designer-name">by Enrique Salmo</p>
-                    </div>
-                    <p class="product-thumbnail-price-tag">139.99$</p>
-                    <button class="product-detail-text-button" type="button">ADD TO SHOPPING BAG</button>
-                </div>
-                <div class="product-thumbnails">
-                    <img src="/images/bikes-thumbnail1.png" alt="">
-                    <div class="product-thumbnail-description">
-                        <p class="product-thumbnail-bike-style">Sport Bicycle 988</p>
-                        <p class="product-thumbnail-designer-name">by Enrique Salmo</p>
-                    </div>
-                    <p class="product-thumbnail-price-tag">139.99$</p>
-                    <button class="product-detail-text-button" type="button">ADD TO SHOPPING BAG</button>
-                </div>
-                <div class="product-thumbnails">
-                    <img src="/images/bikes-thumbnail1.png" alt="">
-                    <div class="product-thumbnail-description">
-                        <p class="product-thumbnail-bike-style">Sport Bicycle 988</p>
-                        <p class="product-thumbnail-designer-name">by Enrique Salmo</p>
-                    </div>
-                    <p class="product-thumbnail-price-tag">139.99$</p>
-                    <button class="product-detail-text-button" type="button">ADD TO SHOPPING BAG</button>
-                </div>
-                <div class="product-thumbnails">
-                    <img src="/images/bikes-thumbnail1.png" alt="">
-                    <div class="product-thumbnail-description">
-                        <p class="product-thumbnail-bike-style">Sport Bicycle 988</p>
-                        <p class="product-thumbnail-designer-name">by Enrique Salmo</p>
-                    </div>
-                    <p class="product-thumbnail-price-tag">139.99$</p>
-                    <button class="product-detail-text-button" type="button">ADD TO SHOPPING BAG</button>
-                </div>
+                <div id="product_description_thumbnails_inner">
+                    <!--data dynamically populated here-->
+                </div>                
             </section>
             <section id="browse_shop_container">
                 <a href="#"  class="browse_shop_button"><button class="button-browse-shop">BROWSE SHOP</button></a>
             </section>
             <footer id="footer_wrap">
-                <a class="footer-conditions"     href="#">TERMS &amp; CONDITIONS</a>
-                <a class="footer-conditions"     href="#">RETURN POLICY</a>
+                <a class="footer-conditions" href="#">TERMS &amp; CONDITIONS</a>
+                <a class="footer-conditions" href="#">RETURN POLICY</a>
                 <a class="footer-conditions" href="#">REVIEWS</a>
                 <a class="footer-conditions" href="#">ABOUT SHOP</a>
                 <a class="footer-conditions" href="#">SECURE PAYMENT</a>
@@ -110,8 +77,7 @@
             </section>
         </div>
     </div>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+    <script src="/js/lib/jquery-2.1.3.js"></script>>
     <script src="/js/main.js"></script>
     
 </body>
